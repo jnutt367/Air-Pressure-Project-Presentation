@@ -8,7 +8,7 @@
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
-      background-color: #f4f6f8;
+      background-color: #0b3c5d; /* School-style navy blue */
       margin: 0;
       padding: 0;
     }
@@ -16,25 +16,35 @@
     .container {
       max-width: 900px;
       margin: 40px auto;
-      padding: 20px;
+      padding: 30px;
       background-color: #ffffff;
       border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    h1, h2, h3 {
       text-align: center;
     }
 
-    h1 {
-      margin-bottom: 10px;
+    h2 {
+      margin-top: 5px;
+      color: #555;
+      font-weight: normal;
     }
 
-    h2 {
-      margin-top: 0;
-      font-weight: normal;
-      color: #555;
+    section {
+      margin-top: 30px;
+    }
+
+    .section-box {
+      background-color: #f4f6f8;
+      padding: 20px;
+      border-left: 5px solid #0b3c5d;
+      border-radius: 4px;
     }
 
     .presentation-wrapper {
-      margin-top: 30px;
+      margin: 40px 0;
       display: flex;
       justify-content: center;
     }
@@ -45,7 +55,8 @@
     }
 
     footer {
-      margin-top: 30px;
+      margin-top: 40px;
+      text-align: center;
       font-size: 0.9rem;
       color: #777;
     }
@@ -57,6 +68,19 @@
     <h1>Jude Searcy</h1>
     <h2>Eighth Grade Science Project</h2>
 
+    <!-- Hypothesis Section -->
+    <section>
+      <h3>Hypothesis</h3>
+      <div class="section-box">
+        <p>
+          If the air pressure inside a soccer ball increases, then the distance the ball
+          can be kicked will increase, because a firmer ball transfers more energy from
+          the kick.
+        </p>
+      </div>
+    </section>
+
+    <!-- Presentation -->
     <div class="presentation-wrapper">
       <iframe
         src="https://1drv.ms/p/c/4e7186894bbe0d75/IQTbvyWrvtmKR7toYHUdP1ZPAbFEEPFLhyUAGgCpj3RfRYA?em=2&wdAr=1.7777777777777777&wdEaaCheck=1"
@@ -66,8 +90,20 @@
       </iframe>
     </div>
 
+    <!-- Conclusion Section -->
+    <section>
+      <h3>Conclusion</h3>
+      <div class="section-box">
+        <p>
+          The results showed that soccer balls with higher air pressure generally traveled
+          farther than balls with lower air pressure. This supports the hypothesis that
+          increased air pressure allows for better energy transfer during a kick.
+        </p>
+      </div>
+    </section>
+
     <footer>
-      <p>Presentation for teacher's evaluation.</p>
+      <p>Science Project Presentation • Eighth Grade</p>
     </footer>
   </div>
 </body>
